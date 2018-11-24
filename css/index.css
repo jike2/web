@@ -1,21 +1,65 @@
-.navigation{
+nav{
     width: 100vw;
     height: 50px;
-    background-color: #333;
+    background-color: darkred;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+}
+.navigation{
+    margin-left: 35vw;
 }
 .navigation a{
+    color: white;
+}
+.navigation ul{
+    margin: 0;
+}
+.navigation ul li{
     float: left;
-    width: 100px;
+    width: 10vw;
     height: 50px;
     list-style:none;
-    text-decoration: none;
-    border-radius: 10%;
+    text-align: center;
+    line-height: 50px;
 }
-.navigation a:hover{
+.navigation ul li a{
+    text-decoration: none;
+}
+.navigation ul li:hover{
     background-color: blue;
 }
-.navigation a li{
-    text-align: center;
-    margin-top: 15px;
-    color: white;
+.navigation01{
+    width: 10vw;
+    height: 150px;
+    background-color: darkred;
+    padding: 0;
+    display: none;
+}
+.navigation li:hover .navigation01{
+    display: block;
+}
+.navigation02{
+    width: 10vw;
+    height: 150px;
+    background-color: darkred;
+    padding: 0;
+    display: none;
+}
+.navigation li:hover .navigation02{
+    display: block;
+}
+.navigation03{
+    width: 10vw;
+    height: 150px;
+    background-color: darkred;
+    padding: 0;
+    display: none;
+}
+.navigation li:hover .navigation03{
+    display: block;
+}
+.navigation03 li{
+    width: 10vw;
+    height: 50px;
 }

@@ -1,0 +1,20 @@
+#box{
+    position:relative;
+    width:100VW;
+    height: 500px;
+    overflow: hidden;
+}
+img{
+    position:absolute;
+    width:100vw;
+    height: 500px;
+}
+#imgId1{
+    opacity:1;
+}
+#imgId2{
+    opacity:0;
+}
+#imgId3{
+    opacity:0;
+}
