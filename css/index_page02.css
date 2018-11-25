@@ -52,6 +52,7 @@
     line-height: 80px;
     margin-left: 2.5%;
 }
+
 .button:hover{
     transform: scale(1.2);
 }
@@ -83,4 +84,8 @@
     margin: 15px 10px 0px 600px;
     font-size: 36px;
     text-indent: 2em;
+}
+.index_page02 .button{
+    background-color: #BD362F;
+    color: white;
 }
