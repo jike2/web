@@ -1,13 +1,13 @@
 #box{
     position:relative;
     width:100VW;
-    height: 500px;
+    height: 768px;
     overflow: hidden;
 }
 img{
     position:absolute;
     width:100vw;
-    height: 500px;
+    height: 768px;
 }
 #imgId1{
     opacity:1;

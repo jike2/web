@@ -1,6 +1,86 @@
 .index_title01{
     text-align: center;
+    clear: both;
 }
 .index_title01 h1{
     color: #BD362F;
+}
+
+
+.index_page02{
+    position: relative;
+    top: 30px;
+    left: 35%;
+}
+.index_page02_button1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px red;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 2.5%;
+}
+.index_page02_button2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px red;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 2.5%;
+}
+.index_page02_button3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px red;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 2.5%;
+}
+.index_page02_button4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px red;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 2.5%;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+.index_page02_bg{
+    width: 100vw;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+.index_page02_box{
+    width: 400vw;
+    height: 500px;
+    transition: 2s;
+}
+.index_page02_box1{
+    float: left;
+    width: 60vw;
+    height: 500px;
+    border: solid 1px rosybrown;
+    margin-left: 20vw;
+}
+.index_page02_box1 img{
+    width: 550px;
+    height: 460px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.size{
+    margin: 15px 10px 0px 600px;
+    font-size: 36px;
+    text-indent: 2em;
 }
