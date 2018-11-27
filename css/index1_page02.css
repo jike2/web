@@ -1,0 +1,144 @@
+/* 背景用于显示图片 */
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/************** 卡片 **************/
+/* 普通卡片 */
+.card {
+    padding: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* 扁平卡片 */
+.card-flat {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* 卡片中的图片和视频 */
+.card .img, .card video {
+    display: block;
+}
+
+/* 卡片中的标题和段落 */
+.card h2, .card p, .card .button {
+    margin: 24px 32px;
+}
+
+/* 卡片中的标题 */
+.card h2 {
+    font-weight: normal;
+}
+
+
+/*************** 风采 ***************/
+/* 栏目 */
+#mien_tab {
+    color: #fff;
+    position: relative;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+#mien_tab .tab {
+    margin: 50px 0;
+}
+
+/* 标签栏 */
+#mien_tab .nav-tabs {
+    margin: 60px 0;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/* 标签 */
+#mien_tab .tab-label {
+    margin: 0;
+    padding: 18px 44px;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    background-color: #665094;
+    opacity: 0.6;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#mien_tab .tab-label:hover, #mien_tab .active .tab-label {
+    opacity: 1;
+    background-color: #665094;
+}
+
+/* 标签页 */
+#mien_tab .tab-pane {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+/* 标签页包装 */
+#mien_tab .tab-pane-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/* 标签页中的图片 */
+#mien_tab .tab-pane-wrapper>.img {
+    width: 50%;
+    height: 300px;
+    background-color: #eee;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+/* 标签页中的卡片 */
+#mien_tab .tab-pane-wrapper>.card {
+    width: 60%;
+    margin-top: 36px;
+    margin-left: -10%;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background: #665094;
+}
+
+/* 背景层 */
+#mien_tab .bg, #mien_tab .bg:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#mien_tab .bg {
+    z-index: -1;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
+}
+#mien_tab .bg:after {
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+}
