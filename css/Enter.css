@@ -1,5 +1,28 @@
-.enter{
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+}
+.box{
+    margin-top: 20%;
+    margin-left: 45%;
+}
+.box>a{
+    color: red;
+    float: left;
+    text-decoration: none;
+    font-size: 50px;
+    margin-top: 5%;
+    align-content: center;
+    text-align:center;
+    cursor: pointer;
+}
+.box2{
+    margin-top: 15%;
+    align-content: center;
+    text-align:center;
+}
+#hr img{
+    width: 10vw;
 }

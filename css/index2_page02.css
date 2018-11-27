@@ -1,0 +1,27 @@
+.index2_page02_box1{
+    width: 20vw;
+    height: 50vh;
+    margin-top: 50px;
+    border: solid 1px lightgrey;
+    margin-left: 10vw;
+    overflow: hidden;
+    float: left;
+    word-wrap:break-word;
+}
+.index2_page02_box2{
+    width: 20vw;
+    height: 50vh;
+}
+.index2_page02_box1:hover{
+    background-color: rgba(19, 31, 26, 0.4);
+    transition: all 500ms ease-in;
+}
+.index2_page02_box1 img{
+    width: 16vw;
+    height: 20vh;
+    margin: 2vh 2vw;
+}
+.index2_page02_box1 p{
+    margin: 0px 2vw;
+    text-indent: 2em;
+}
