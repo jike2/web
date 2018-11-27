@@ -1,10 +1,17 @@
 nav{
     width: 100vw;
-    height: 50px;
-    background-color: darkred;
+    height: 70px;
+    background-color: rgba(46, 43, 38, 0.7);
     margin: 0;
     position: fixed;
     z-index: 100;
+}
+.index_title01{
+    text-align: center;
+    clear: both;
+}
+.index_title01 h1{
+    color: #BD362F;
 }
 .navigation{
     margin-left: 35vw;
@@ -18,10 +25,10 @@ nav{
 .navigation ul li{
     float: left;
     width: 10vw;
-    height: 50px;
+    height: 70px;
     list-style:none;
     text-align: center;
-    line-height: 50px;
+    line-height: 70px;
 }
 .navigation ul li a{
     text-decoration: none;
@@ -31,8 +38,8 @@ nav{
 }
 .navigation01{
     width: 10vw;
-    height: 150px;
-    background-color: darkred;
+    height: 210px;
+    background-color: rgba(46, 43, 38, 0.7);
     padding: 0;
     display: none;
 }
@@ -41,25 +48,11 @@ nav{
 }
 .navigation02{
     width: 10vw;
-    height: 150px;
-    background-color: darkred;
+    height: 210px;
+    background-color: rgba(46, 43, 38, 0.7);
     padding: 0;
     display: none;
 }
 .navigation li:hover .navigation02{
     display: block;
-}
-.navigation03{
-    width: 10vw;
-    height: 150px;
-    background-color: darkred;
-    padding: 0;
-    display: none;
-}
-.navigation li:hover .navigation03{
-    display: block;
-}
-.navigation03 li{
-    width: 10vw;
-    height: 50px;
 }

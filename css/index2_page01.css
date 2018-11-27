@@ -1,0 +1,9 @@
+.index2_page01{
+    width: 100vw;
+    height: 768px;
+    border: solid 1px red;
+}
+.index2_page01 img{
+    width: 100%;
+    height: 100%;
+}
