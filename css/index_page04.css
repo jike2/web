@@ -24,3 +24,46 @@
 }
 
 
+
+
+.index1_page04_box{
+    margin-left: 10vw;
+    margin-top: 30px;
+}
+.index1_page04_box a li{
+    float: left;
+    height: 5vh;
+    width: 8vw;
+    text-align: center;
+    line-height: 5vh;
+    color: black;
+    list-style: none;
+}
+.index1_page04_box a li:hover{
+    border-bottom: solid 4px red;
+}
+.iframe_a{
+    width: 80vw;
+    height: 80vh;
+    margin-left: 12vw;
+}
+.index1_page04_iframe{
+    width: 90%;
+    height: 22vh;
+    position: relative;
+    padding: 30px;
+    box-shadow: darkgrey 5px 5px 30px 2px ;
+}
+.index1_page04_iframe img{
+    width: 20%;
+    height: 20vh;
+    margin: 1vh 0.5%;
+    float: left;
+}
+.index1_page04_iframe p{
+    float: left;
+    text-indent: 2em;
+}
+.index1_page04_iframe:hover{
+    box-shadow: darkgrey 10px 10px 30px 5px ;
+}
