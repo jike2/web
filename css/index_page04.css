@@ -67,3 +67,41 @@
 .index1_page04_iframe:hover{
     box-shadow: darkgrey 10px 10px 30px 5px ;
 }
+.end{
+    width: 100vw;
+    height: 70px;
+    background-color: #555555;
+    position: relative;
+    bottom: 0;
+}
+.end p{
+    text-align: center;
+    line-height: 70px;
+}
+
+#dd1{
+    width: 80vw;
+    height: 768px;
+    margin-left: 10vw;
+}
+.item{
+    width: 100%;
+    height: 650px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.box_word{
+    width: 100%;
+    height: 30%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+}
+.box_word p{
+    color: white;
+    font-size: 28px;
+    text-indent: 2em;
+    margin: 20px 20px;
+}
